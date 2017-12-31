@@ -91,7 +91,8 @@ def one_hot_matrix(labels, C):
     sess.close()
     return one_hot
 
-BASE_PATH = 'images\\'
+# the base path is the folder where you downloaded the images.  
+BASE_PATH = 'images\\'  # mine is windows.
 
 
 # extract the annotation
